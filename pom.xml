@@ -33,18 +33,22 @@
     </dependencies>
   </dependencyManagement>
   <dependencies>
+<!--
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-resteasy-reactive-jackson</artifactId>
     </dependency>
+-->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-resteasy-reactive-qute</artifactId>
     </dependency>
-    <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-rest-client-reactive-jackson</artifactId>
-    </dependency>
+    <!--
+        <dependency>
+          <groupId>io.quarkus</groupId>
+          <artifactId>quarkus-rest-client-reactive-jackson</artifactId>
+        </dependency>
+    -->
 
     <dependency>
       <groupId>io.quarkus</groupId>
@@ -73,10 +77,12 @@
     -->
 
     <!-- Webjars -->
-    <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-webjars-locator</artifactId>
-    </dependency>
+    <!--
+        <dependency>
+          <groupId>io.quarkus</groupId>
+          <artifactId>quarkus-webjars-locator</artifactId>
+        </dependency>
+    -->
     <dependency>
       <groupId>org.webjars.npm</groupId>
       <artifactId>bootstrap</artifactId>
